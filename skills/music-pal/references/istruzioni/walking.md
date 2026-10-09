@@ -28,7 +28,8 @@ dalle quattro note per battuta.
 **Cosa ti serve prima di cominciare:**
 
 - il giro, una sigla per battuta (o due, se l'armonia cambia a metà);
-- il registro del basso: **mi1-do3** (numeri di nota MIDI 28-48);
+- il registro del basso: **MIDI 28–48** (mi1–do3 nella
+  [convenzione MusicPal](../navigation.md#registri-e-nomi-delle-note));
 - da dove parte la linea, cioè l'ultima nota suonata prima.
 
 ---

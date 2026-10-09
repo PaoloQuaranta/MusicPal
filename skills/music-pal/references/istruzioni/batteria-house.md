@@ -6,7 +6,7 @@
 > API e trasferimenti appartengono agli adapter; le osservazioni storiche non certificano altre macchine.
 
 ⚠️ **PERIMETRO.** Questa istruzione copre la **four-on-the-floor**: cassa su
-**ogni** movimento, e tutto il resto vive **negli spazi fra le casse** (i levare).
+**ogni** movimento come base, con la spinta degli hat **fra le casse** (i levare).
 Copre due generi vicini su un asse:
 
 | | **house** | **techno** |
@@ -31,8 +31,8 @@ genere documentata** (produzione elettronica), non una misura.
 **Cosa ti serve prima di cominciare:**
 
 - il tempo (house ~124, techno ~130) e se è swingato (house) o dritto (techno);
-- **il basso** — nella house il basso sta **fuori** dalla cassa (sui levare), il
-  contrario dell'hip hop. Vedi [basso-house.md](basso-house.md);
+- **il basso** — nel modello di base scelto qui sta sui levare, alternato
+  alla cassa. Vedi [basso-house.md](basso-house.md);
 - un kit **elettronico** (808/909/CR-78): il suono *è* il genere.
 
 ---
@@ -58,8 +58,9 @@ x...x...x...x...    OGNI movimento
 ```
 
 `[LIB]` La cassa batte **tutti e quattro i movimenti**, forte e uniforme
-(velocity ~105-115). È il cuore pompante del genere: **non si buca** (se non per
-un attimo di break). ⚠️ È l'opposto dell'hip hop (1 e 3) e del funk (sincope).
+(velocity ~105-115 nel modello qui descritto). `[DEC]` Mantienila regolare
+nel primo esercizio; un'omissione intenzionale può preparare un ingresso,
+un fill o un break, se il rientro del pulse rimane leggibile.
 
 ### Il clap / rullante — il backbeat, sul 2 e 4
 
@@ -108,16 +109,18 @@ resta ferma comunque.
 
 ---
 
-## I vincoli
+## Impostazione di base ed eccezioni motivate
 
-| vincolo | perché |
+`[DEC]` Parti da questi vincoli per l'esercizio; modifica una parte quando
+la sezione richiede un contrasto preciso, verificandone la resa all'ascolto.
+
+| base | funzione ed eccezioni |
 |---|---|
-| **la cassa non si buca** | è il motore: ogni movimento, sempre (salvo il break) |
-| **l'open hat sta sul levare, non sul movimento** | se cade sul movimento copre la cassa e ammazza la spinta |
-| **il clap non si sposta dal 2 e 4** | è l'ancora del backbeat |
-| **il suono è elettronico** | un kit acustico non fa house: serve 808/909/CR-78 |
-| **il movimento è nel filtro, non nelle note** | ⚠️ techno/house cambiano nell'**arrangiamento** e nel **filtro** (casella «cosa manca»), non aggiungendo colpi |
-| **niente regola su tutte le battute** | la trappola del generatore |
+| **cassa sui quattro movimenti** | dà continuità; un buco motivato può preparare fill, pickup o transizione anche fuori dal breakdown |
+| **open hat sul levare** | dà la spinta fra le casse; un accento diverso richiede di controllare sovrapposizione e spinta |
+| **clap sul 2 e 4** | ancora il backbeat; omissioni e spostamenti possono articolare un fill o una sezione |
+| **kit elettronico di partenza** | 808/909/CR-78 definiscono il colore dell'esempio; altre scelte richiedono una funzione sonora esplicita |
+| **movimento di arrangiamento e timbro** | scegli entrate/uscite, filtro o variazioni di note in base all'arco, senza aggiunte automatiche |
 
 ---
 
@@ -125,10 +128,10 @@ resta ferma comunque.
 
 **«La cassa pompa; dove metto la spinta in levare, e cosa lascio all'arrangiamento?»**
 
-1. **Fissa la cassa** su ogni movimento.
+1. **Fissa la cassa** su ogni movimento come base, segnando eventuali eccezioni.
 2. **Metti l'open hat** sui levare (la firma), il clap sul 2 e 4.
 3. **Riempi coi closed hat / percussione** i sedicesimi, piano.
-4. **Guarda il basso**: sta sui levare, fuori dalla cassa.
+4. **Guarda il basso**: alternanza sui levare come base; controlla gli incastri diversi scelti.
 5. **Pensa all'arco**, non alla battuta: house e techno vivono del **build/drop**
    (togliere e rimettere parti su 16-32-64 battute). Vedi «cosa manca».
 

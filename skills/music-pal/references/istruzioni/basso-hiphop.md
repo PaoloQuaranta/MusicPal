@@ -28,8 +28,10 @@ agganciato senza affollare.
 
 - il loop armonico (nell'hip hop l'armonia è **il campione**: un giro breve,
   spesso jazzy/soul, che si ripete);
-- il registro: **grave**, spesso un'ottava sotto il funk — nel caso storico Deluge la zona
-  **do1-do2** (24-36) per il sub, fino a mi2 per il boom-bap campionato;
+- il registro: **grave**, spesso un'ottava sotto il funk — nel caso storico
+  **MIDI 24–36** per il sub, fino a **MIDI 40** per il boom-bap campionato
+  (do1–do2, fino a mi2 nella
+  [convenzione MusicPal](../navigation.md#registri-e-nomi-delle-note));
 - **la cassa, colpo per colpo** — il basso *è* il fondo della cassa. Vedi
   [batteria-hiphop.md](batteria-hiphop.md).
 

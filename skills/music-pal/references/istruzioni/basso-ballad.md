@@ -24,7 +24,8 @@ senza affollarlo.
 **Cosa ti serve prima di cominciare:**
 
 - il giro, una sigla per battuta (o due, se cambia a metà);
-- il registro del basso: **mi1-do3** (28-48), come il walking;
+- il registro del basso: **MIDI 28–48** (mi1–do3 nella
+  [convenzione MusicPal](../navigation.md#registri-e-nomi-delle-note)), come il walking;
 - il tempo: lento, **~50-70 BPM** (`[MIS]` Weimar, mediana 58).
 
 ---

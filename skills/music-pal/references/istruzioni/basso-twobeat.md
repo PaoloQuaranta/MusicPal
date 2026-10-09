@@ -31,7 +31,8 @@ o un blues) e ti serve il basso sotto. Questa istruzione dice come tenere il
 **Cosa ti serve prima di cominciare:**
 
 - il giro, una sigla per battuta;
-- il registro del basso: **mi1-do3** (28-48), come il walking e la ballad;
+- il registro del basso: **MIDI 28–48** (mi1–do3 nella
+  [convenzione MusicPal](../navigation.md#registri-e-nomi-delle-note)), come il walking e la ballad;
 - il tempo: veloce, **~160-200 BPM**;
 - **la controparte sul 2 e sul 4** — il "pah". Nel twobeat il basso fa il 1 e il
   3 ("oom"), e la risposta sta sul 2 e sul 4: il charleston croccante e il

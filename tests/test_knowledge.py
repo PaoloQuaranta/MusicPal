@@ -38,8 +38,15 @@ class KnowledgeTests(unittest.TestCase):
                     self.assertIn(block['route'],['music','deluge','split'])
                     next_line=block['end_line']+1
                 self.assertEqual(next_line,entry['original_lines']+1)
-                neutral=(SKILL/entry['neutral']).read_bytes()
-                self.assertEqual(hashlib.sha256(neutral).hexdigest(),entry['neutral_sha256'])
+                # neutral_sha256 records the extraction baseline, not a lock on
+                # maintained guidance. Keep snapshots immutable while allowing
+                # the active reference to evolve and retain its source link.
+                neutral_path=SKILL/entry['neutral']
+                neutral=neutral_path.read_text(encoding='utf-8')
+                links=re.findall(r'\[[^\]\n]+\]\(([^)\n]+)\)',neutral)
+                targets={(neutral_path.parent/link.split('#',1)[0]).resolve()
+                         for link in links if not re.match(r'https?://|mailto:',link)}
+                self.assertIn((SKILL/entry['snapshot']).resolve(),targets)
 
     def test_all_repertori_preserve_musical_slot_states(self):
         self.assertEqual(len(list((REF/'repertori').glob('*.md'))),7)

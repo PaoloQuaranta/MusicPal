@@ -26,6 +26,11 @@ Il dettaglio operativo sta in [batteria-house.md](../istruzioni/batteria-house.m
 groove), [materiale della prova originale](../../provenance/delugepal/docs/repertori/house.md) (l'arco) e [materiale della prova originale](../../provenance/delugepal/docs/repertori/house.md) (l'acid).
 Questa scheda è la vista per casella.
 
+Le ricette descrivono l'impostazione di base degli esempi. `[DEC]` Pickup,
+sincopi, omissioni di cassa e variazioni di registro sono possibili quando
+servono un punto della forma: esplicita la funzione e verifica l'incastro.
+Per un test di 30–90 secondi usa il [percorso breve](../demo-breve.md).
+
 Il grado di prova: `[LIB]` convenzione documentata · `[DEC]` decisione presa qui.
 
 ---
@@ -123,22 +128,22 @@ lunga **si ripete in loop**. L'arco minimo, nell'esempio [materiale della prova 
 | breakdown | 4 | via la cassa; stab filtrato + basso |
 | drop | 8 | rientro pieno |
 
-⚠️ Il **breakdown** è l'unico posto dove la cassa **si buca**: è l'eccezione che
-crea il vuoto da cui il drop rientra. Dettaglio in
+Nell'esempio il **breakdown** toglie la cassa e crea il vuoto del rientro.
+Omissioni locali possono anche segnare un fill o una transizione. Dettaglio in
 [arrangiamento-house.md](../istruzioni/arrangiamento-house.md).
 
 ## 11. Trappole del generatore
 
-- **la cassa non si buca**: ogni movimento, è il motore (salvo il break);
-- **l'open hat sta sul levare, non sul movimento**: sul movimento copre la cassa e
-  ammazza la spinta;
-- **il basso sta fuori dalla cassa**: sui levare — sul movimento raddoppia la cassa
-  e il groove smette di pompare (l'opposto dell'hip hop);
-- **il suono è elettronico**: un kit acustico non fa house/techno (serve 808/909/CR-78);
-- **il movimento è nel filtro e nell'arrangiamento**, non nei colpi: aggiungere note
-  non fa progredire un pezzo dance — lo fanno il build/drop e lo sweep;
-- **il drop non aggiunge, rimette**: si tolgono e si rimettono parti + si apre il
-  filtro, non si accumulano colpi;
+- **non applicare la base a ogni battuta:** cassa regolare, hat e basso in levare
+  rendono chiari i ruoli; pickup, sincopi e buchi intenzionali richiedono una
+  funzione nella frase e il controllo del rapporto cassa/basso;
+- **scegli il suono per il ruolo:** 808/909/CR-78 sono i kit degli esempi,
+  non un requisito esclusivo;
+- **scegli come far progredire il pezzo:** entrate/uscite, filtro e variazioni
+  di note sono risorse; un drop può riprendere parti e introdurre una figura
+  motivata. Non aggiungere colpi automaticamente;
+- **confronta intenzione e risultato:** usa la [verifica finale](../verifica-finale.md).
+  Entrate/uscite non equivalgono a filtro o sidechain implementati;
 - **verificare il ducking:** l’effetto richiesto è il respiro del basso o
   del pad in risposta alla cassa. Compressione del bus e ducking hanno scopi diversi.
 - **l'acid è il filtro, non le note**: risonanza alta o non è acid; la linea è

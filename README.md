@@ -93,5 +93,8 @@ DelugePal contributors. Source baseline:
 `cbf99ff305beed355f2a27fc83499665c8d102e3`.
 The skill's `provenance/` directory preserves the original public knowledge
 files and a migration manifest; these are immutable evidence, not active
-instructions. Source-specific licenses and attribution remain in the references.
+instructions. The manifest's `neutral_sha256` values record the extraction
+baseline; maintained references can evolve while retaining their source links.
+Tests verify original snapshot hashes, source links and evidence coverage.
+Source-specific licenses and attribution remain in the references.
 The new repository contains no private corpus or inherited Git history.

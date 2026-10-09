@@ -17,7 +17,10 @@ print(render_notes(pattern))
 ```
 
 This yields three simultaneous pitches, spelled with Ableton's octave convention
-(MIDI 60 is C3). The serializer emits verified `bar|beat` notation. Each event
+(MIDI 60 is C3). Keep numeric pitch unchanged: a MusicPal bass range of MIDI
+24–36 (do1–do2) is C0–C1 here, not C1–C2. See the
+[pitch convention](../navigation.md#registri-e-nomi-delle-note).
+The serializer emits verified `bar|beat` notation. Each event
 restates its velocity, absolute note-value duration and unconditional probability
 to avoid leaked prefix state. Internal quarter beats become meter-relative
 positions; in 6/8, quarter beat 3 becomes bar 2 beat 1. Fractional positions use
@@ -46,6 +49,10 @@ For an explicitly requested future Live action:
    a region require the backend's documented editing mechanism. Do not mistake a
    whole new note list for replacement semantics.
 5. Apply only the musical edit the user requested and read back the result.
+6. Use the [final verification](../verifica-finale.md) to compare intent and
+   implementation, including any planned filter automation or sidechain.
+   Track/clip readback and transport state are technical checks; explicitly
+   report whether the resulting audio was actually heard.
 
 The module supports no transport/version-specific call wrapper and no MIDI JSON
 or Stark serializer; use current Producer Pal skills for those notations.

@@ -6,9 +6,9 @@
 > API e trasferimenti appartengono agli adapter; le osservazioni storiche non certificano altre macchine.
 
 ⚠️ **PERIMETRO.** Questa istruzione copre il basso della **four-on-the-floor**:
-una linea che sta **fuori dalla cassa**, sui **levare**, e dà il rimbalzo. ⚠️ È
-**l'opposto dell'hip hop**, dove il basso stava *con* la cassa: qui la cassa
-occupa i movimenti, e il basso occupa i buchi in mezzo.
+una linea che, nell'impostazione di base qui scelta, sta **fuori dalla cassa**,
+sui **levare**, e dà il rimbalzo. Questo modello alterna cassa e basso;
+non esaurisce le possibilità di house e techno.
 
 | | house | techno |
 |---|---|---|
@@ -24,8 +24,9 @@ occupa i movimenti, e il basso occupa i buchi in mezzo.
 **Cosa ti serve prima di cominciare:**
 
 - il giro (spesso breve e ripetuto, o un vamp di un accordo solo);
-- il registro **grave** (sub), zona do1-do2 (24-36);
-- **la cassa** — il basso ci sta **intorno**, non sopra. Vedi
+- il registro **grave** (sub), zona **MIDI 24–36** (do1–do2 nella
+  [convenzione MusicPal](../navigation.md#registri-e-nomi-delle-note));
+- **la cassa** — nel modello di base il basso ci sta **intorno**. Vedi
   [batteria-house.md](batteria-house.md).
 
 ---
@@ -81,16 +82,23 @@ giro, o sta ferma); è il **ritmo in levare** a fare il basso, non la melodia.
 
 ---
 
-## Cosa NON fare
+## Impostazione di base ed eccezioni motivate
 
-- **non mettere il basso sul movimento con la cassa.** Nella house sta sui
-  **levare**: sul movimento raddoppia la cassa e il groove smette di pompare
-  (l'opposto dell'hip hop);
-- **non fare una linea melodica ricca.** L'altezza cambia poco; è il **ritmo in
-  levare** il basso;
-- **non salire di registro.** Grave, sub: in mezzo sparisce sotto gli stab;
-- **non dimenticare l'ottava** (house) o **il filtro** (techno/acid): sono loro a
-  dare vita a una linea che, in altezza, è quasi ferma.
+`[DEC]` Per un primo esercizio parti dai levare, con poche altezze e registro
+grave. Sono vincoli locali per rendere chiaro il botta-e-risposta.
+
+- **Attacchi sul movimento:** un pickup, una sincope o un raddoppio della cassa
+  possono segnare un ingresso o una transizione. Scegli dove e perché;
+  controlla durata, accento e sovrapposizione sonora con la cassa.
+- **Melodia e registro:** una salita o una figura più ricca può distinguere
+  una sezione. Conserva il ruolo del grave o assegna esplicitamente quel ruolo
+  a un'altra parte; verifica il rapporto con gli stab.
+- **Ottava e filtro:** sono opzioni di movimento, non obblighi. Se il movimento
+  viene dalle entrate/uscite, dichiaralo; se scegli il filtro, realizzalo e
+  controllalo come intervento sul suono.
+
+Valuta all'ascolto se l'eccezione mantiene il rimbalzo o produce il contrasto
+voluto. La sola coincidenza di due note non decide l'esito percettivo.
 
 ---
 

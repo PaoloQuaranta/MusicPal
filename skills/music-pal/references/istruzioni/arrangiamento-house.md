@@ -11,10 +11,9 @@ non la singola battuta (quella sta in [batteria-house.md](batteria-house.md) e
 House e techno **sono forma**: una battuta non dice niente di un pezzo, è il
 **build/drop** e il **filtro in movimento** a farlo vivere.
 
-> **La cosa da capire:** in un pezzo dance non si aggiungono note per far
-> succedere qualcosa. Si **tolgono e si rimettono le parti**, si **apre il
-> filtro**, si accende il **pompaggio**. Il movimento è nell'arrangiamento e nel
-> suono, non nei colpi.
+> **Impostazione di base `[DEC]`:** prova a costruire l'arco con entrate/uscite
+> delle parti, apertura del filtro e pompaggio. Scegli quali interventi servono
+> al pezzo; anche una variazione di note può avere una funzione nella transizione.
 
 ---
 
@@ -51,7 +50,7 @@ accumula, si esplode (il **drop**), si toglie tutto (il **breakdown**), si
 riesplode. Le parti **entrano ed escono**; il filtro **apre e chiude**. Le durate
 tipiche sono potenze di due: **8-16-32-64** battute.
 
-L'arco minimo, quello dell'esempio (32 battute):
+L'arco dell'esempio (32 battute), una scelta possibile:
 
 | sezione | battute | cosa suona | suono |
 |---|---|---|---|
@@ -61,9 +60,9 @@ L'arco minimo, quello dell'esempio (32 battute):
 | **breakdown** | 4 | **via la cassa**, restano stab + basso | stab **filtrato** scuro |
 | **drop** | 8 | rientro pieno | filtro aperto, il pompaggio torna |
 
-⚠️ **Il breakdown toglie la cassa**, ed è l'unico posto dove la four-on-the-floor
-**si buca** (la regola dice «la cassa non si buca»: qui è l'eccezione che *fa* il
-breakdown). Togliere il motore crea il vuoto da cui il drop successivo rientra.
+**Nell'esempio il breakdown toglie la cassa**: crea il vuoto da cui il drop
+successivo rientra. `[DEC]` Si possono scegliere omissioni anche in un fill
+o alla fine di una frase, motivandone il punto e l'effetto sul rientro.
 
 **Come si stende, materialmente.** Si usa `mappa della forma`: una clip per stato (una
 batteria d'intro, una piena; uno stab normale, uno che apre, uno filtrato), e la
@@ -98,16 +97,18 @@ La prova del 17 settembre 2026 fu accettata; il suo valore grezzo resta
 un dato dell’adapter storico, non un punto di partenza numerico universale.
 
 
-## I vincoli
+## Impostazione di base ed eccezioni motivate
 
-| vincolo | perché |
+`[DEC]` Le scelte dell'esempio danno un punto di partenza, non una legge di genere.
+
+| base | funzione ed eccezioni |
 |---|---|
-| **il drop non aggiunge note, rimette parti** | il movimento dance è togliere/rimettere + il filtro, non colpi in più |
-| **la cassa si buca SOLO nel breakdown** | è l'eccezione che crea il vuoto; altrove è il motore |
-| **il filtro apre nel build, è aperto nel drop** | lo sweep è metà del genere |
-| **il sidechain col SIDECHAIN, non col compressore** | distinguere compressione del bus da ducking comandato dalla cassa |
-| **il pompaggio è mix, non nota** | si imposta una volta sul suono; l'arrangiamento lo accende togliendo/mettendo la cassa |
-| **le sezioni in potenze di due** | 8-16-32-64: la griglia percettiva del dance |
+| **il drop rimette parti** | rende udibile il ritorno; una nuova figura o un pickup possono rafforzarlo se motivati |
+| **cassa regolare, tolta nel breakdown** | mantiene il motore; buchi locali possono segnare altri giunti della forma |
+| **filtro che apre nel build** | crea tensione timbrica se scelto e realizzato; un altro contrasto può assolvere quella funzione |
+| **ducking comandato dalla cassa** | definire trigger e risposta; il meccanismo dipende dall'adapter, la compressione del bus non lo dimostra |
+| **pompaggio come intervento sul suono** | verificare routing e risposta; le sole note non lo realizzano |
+| **sezioni in potenze di due** | punto di partenza dell'esempio; durate diverse devono servire frase e arco |
 
 ---
 
@@ -117,11 +118,19 @@ un dato dell’adapter storico, non un punto di partenza numerico universale.
 
 1. **Le parti**: quali clip suonano (la cassa c'è? il basso? lo stab?).
 2. **Il filtro**: è fermo, apre (build), o è chiuso (breakdown)?
-3. **La pompa**: c'è la cassa? allora il sidechain pompa da sé. Non c'è? respira.
+3. **La pompa**: se prevista, il trigger e la risposta sono configurati?
+   La presenza della cassa da sola non implementa il sidechain.
 4. **Il giunto con la sezione dopo**: un breakdown chiama un drop; un build chiama
    il drop. L'arco è fatto di attese e rilasci.
 
 ---
+
+## Verifica della realizzazione corrente
+
+Chiudi con [Previsto / Realizzato / Da verificare all'ascolto](../verifica-finale.md).
+Indica separatamente entrate/uscite, filtro e ducking: se hai costruito soltanto
+la forma, filtro e sidechain restano da realizzare quando erano previsti.
+I controlli tecnici e l'avvio del trasporto non certificano la resa percettiva.
 
 ## L'esempio lavorato
 

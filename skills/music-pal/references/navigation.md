@@ -1,6 +1,10 @@
 # Navigazione musicale
 
-Per la domanda del pezzo, leggi [MUSICA.md](MUSICA.md) nella sezione **Metodo**,
+Per demo o test di **30–90 secondi**, usa il [percorso breve](demo-breve.md):
+ruoli, giro o vamp, forma e strumenti. Apri le schede estese solo per una
+decisione che ne abbia bisogno.
+
+Per le altre domande del pezzo, leggi [MUSICA.md](MUSICA.md) nella sezione **Metodo**,
 **Il mestiere** o nella casella necessaria. La matrice finale espone lo stato
 di copertura. Le schede conservano gli ID 1–9,11; il precedente ID 10 è un adapter.
 
@@ -112,6 +116,25 @@ La skill si installa copiando l’intera cartella `music-pal`, incluso `provenan
 
 [Contratto](adapters/contract.md), [DelugePal](adapters/deluge-pal.md),
 [Producer Pal](adapters/producer-pal.md). Scegli soltanto l’adapter richiesto.
+Concludi con la [verifica finale](verifica-finale.md), anche per una demo.
+
+## Registri e nomi delle note
+
+Il **numero MIDI è il riferimento**: scrivi prima il numero o l'intervallo,
+poi il nome se utile. Nelle istruzioni musicali attive i nomi seguono la
+convenzione MusicPal **MIDI 60 = do4 / C4**; nell'adapter Producer Pal/Ableton
+lo stesso numero è **C3**. L'ottava nel nome cambia, l'altezza non cambia.
+
+| MIDI | MusicPal | Producer Pal / Ableton |
+|---|---|---|
+| 24 | do1 / C1 | C0 |
+| 36 | do2 / C2 | C1 |
+| 60 | do4 / C4 | C3 |
+
+Per esempio, il sub MIDI 24–36 resta 24–36 durante il trasferimento; non
+trasporlo per conservare le etichette do1–do2. L'adapter converte i nomi.
+Le citazioni e gli eventi delle prove storiche conservano la propria grafia:
+prima di riusarli, risolvi l'altezza nella convenzione della fonte.
 
 ## Convenzione temporale delle prove storiche
 

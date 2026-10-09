@@ -25,7 +25,8 @@ quanto fitto, dove metterlo nel tempo, e come agganciarlo alla batteria.
 
 - il centro tonale, o il vamp (nel funk l'armonia si muove poco: è il **ritmo**
   a portare il pezzo);
-- il registro del basso: **mi1-do3** (numeri di nota MIDI 28-48), come il
+- il registro del basso: **MIDI 28–48** (mi1–do3 nella
+  [convenzione MusicPal](../navigation.md#registri-e-nomi-delle-note)), come il
   walking;
 - **la cassa, colpo per colpo** — nel funk basso e cassa sono una cosa sola.
   Vedi [batteria-funk.md](batteria-funk.md).

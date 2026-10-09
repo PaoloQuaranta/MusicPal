@@ -28,7 +28,8 @@ del suono sono `[da verificare]` all'orecchio.
 
 - un synth mono con un LPF risonante (nel progetto: `Square Saw Bass`, già quasi un
   303 — ha `portamento`, `envelope2`, `envelope2→lpfFrequency`);
-- una tonica bassa (sub), zona do1-do2;
+- una tonica bassa (sub), zona **MIDI 24–36** (do1–do2 nella
+  [convenzione MusicPal](../navigation.md#registri-e-nomi-delle-note));
 - il tempo (acid house ~120-127, acid techno ~130-140).
 
 ---
