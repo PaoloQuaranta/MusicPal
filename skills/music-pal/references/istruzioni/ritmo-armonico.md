@@ -1,0 +1,125 @@
+# Il ritmo armonico: ogni quanto cambia l'accordo
+
+
+> Conoscenza musicale estratta da DelugePal, commit `cbf99ff305be`.
+> [Documento originale e contesto delle prove](../../provenance/delugepal/docs/istruzioni/ritmo-armonico.md).
+> API e trasferimenti appartengono agli adapter; le osservazioni storiche non certificano altre macchine.
+
+**A cosa serve.** Hai una progressione e devi decidere **ogni quanto** cambia
+l'accordo, e **dove** cade il cambio rispetto alla battuta. È il *ritmo armonico*
+— la cosa che tutte le altre istruzioni d'armonia hanno finora lasciato «alla
+scelta del caso». Qui c'è come si decide.
+
+È priorità 1 (armonia), la coda che vale per **tutte** le istruzioni: modale,
+funzionale, prestito, cromatismo. Non è un colore in più, è **come** i colori si
+dispongono nel tempo.
+
+**Cosa ti serve prima di cominciare:** la progressione (le sigle) e il tempo/metro
+del pezzo.
+
+---
+
+## Il grado di prova
+
+| | |
+|---|---|
+| `[LIB]` | letteratura, con libro e pagina |
+| `[CALC]` | calcolo sul meccanismo, verificato da un test |
+| `[DEC]` | decisione presa qui, con la ragione |
+
+⚠️ **Niente `[OSS]`**: l'armonia si chiude col `[CALC]` (decisione del 13
+settembre 2026). Qui il `[CALC]` è sul **meccanismo** — come `durata` fissa il
+ritmo armonico — perché il ritmo armonico è una scelta di tempo, non un fatto di
+altezze; il resto è `[LIB]` e `[DEC]`.
+
+⚠️ **Ascoltato comunque il 14 settembre 2026**, non per chiudere l'armonia (che
+resta col `[CALC]`) ma perché il ritmo armonico è una **leva della forma**: dentro
+`STRUTTURA02` (esempio dell'[arco dinamico](arco-dinamico.md)) il ponte raddoppia
+il cambio d'accordo, e la spinta si è sentita — *«suona giusto, approvato»*. Un
+`[OSS]` di conferma, non un cambio di metodo.
+
+---
+
+## Il principio: la frequenza del cambio, e il suo peso
+
+`[LIB]` Piston, *Harmony* (5ª ed.), cap. 12 «Harmonic Rhythm», p. 189. Due idee
+governano tutto:
+
+- **la frequenza del cambio di fondamentale.** Cambiare accordo spesso spinge;
+  cambiarlo di rado allarga. È la leva principale;
+- **il peso del metro.** `[LIB]` Piston chiama «tirannia della stanghetta» la
+  convenzione per cui il **primo movimento** della battuta è il più forte, gli
+  altri via via più deboli. E lo **stress agogico**: un accordo che **dura di
+  più** è percepito come più forte. Un cambio d'accordo sul battere pesa; sullo
+  levare è una sincope.
+
+⚠️ **La regola operativa che ne segue:** metti i cambi importanti — e la cadenza —
+sul **battere**. Un accordo lungo su un tempo forte è un punto di riposo; un
+accordo breve o fuori tempo tira in avanti.
+
+---
+
+## Il ritmo armonico nel jazz
+
+`[LIB]` Smith, *Jazz Theory* (4ª ed.), cap. VIII, p. 53: *«gli accordi tendono a
+disporsi in un'alternanza forte-debole, creando un senso di battere-levare dentro
+il ritmo armonico»* — nel ii-V-I, I e II sono forti, V è debole. E il ritmo
+armonico tipico dello standard è a **minima** (due accordi per battuta) o a
+**semibreve** (uno): `[LIB]` Smith p. 65 fa costruire un giro «mantenendo un ritmo
+armonico a minima».
+
+⚠️ `[DEC]` **La mossa espressiva più comune: accelerare verso la cadenza.** Una
+progressione può stare ferma (un accordo per battute intere) e poi **stringere**
+sul ii-V-I — un accordo per movimento — proprio dove vuole risolvere. Il ritmo
+armonico che accelera è di per sé una spinta verso casa.
+
+---
+
+## Come si decide
+
+1. **scegli il passo di base** dal carattere: **lento** (un accordo per una o più
+   battute) per il modale e l'ampio; **medio** (a minima) per lo standard;
+   **veloce** (a movimento) per la spinta;
+2. **allinea i cambi al metro:** i cambi importanti e la cadenza sul battere;
+3. **varia dove serve:** stringi verso la cadenza, allarga sui punti di riposo. Un
+   ritmo armonico uniforme per tutto il pezzo è raramente la scelta migliore —
+   dice sempre la stessa cosa.
+
+---
+
+## Cosa NON fare
+
+- **non lasciare il ritmo armonico uniforme per default:** è la scelta che fa
+  suonare «di servizio» una progressione giusta. Almeno stringi sulla cadenza;
+- **non mettere la cadenza sul levare** senza volerlo: la risoluzione sul battere
+  è ciò che la fa sentire come arrivo;
+- **non confondere ritmo armonico e ritmo della parte:** qui si parla di ogni
+  quanto cambia **l'accordo**, non di come si muovono le singole voci.
+
+---
+
+## Cosa manca a questa istruzione
+
+- un modo di dare **durate disuguali** alle sigle di una sola stringa (oggi si fa
+  a segmenti): è una comodità di libreria, non una lacuna di teoria;
+- l'**anticipazione** dell'accordo (il cambio che arriva sul levare *prima* del
+  battere, tipico del jazz e del pop): un colore ritmico-armonico che qui è solo
+  nominato;
+- ~~il rapporto con la **forma** lunga (dove accelerare nell'arco di un intero
+  pezzo)~~ **[fatto](arco-dinamico.md)**: il ritmo armonico è una delle tre leve
+  dell'arco dinamico — il ponte raddoppia il cambio d'accordo, ed è lì che
+  «accelerare verso la cadenza» vive nella forma lunga.
+
+### Materiale musicale degli esempi originali
+
+Questi sono i materiali espliciti delle prove, riscritti come notazione
+dichiarativa. Le operazioni del sequencer sono nell’adapter storico.
+
+| contesto della prova | materiale |
+|---|---|
+| Come si scrive, materialmente | `Dm  /  Dm  /  Gm  /  Dm` |
+| Come si scrive, materialmente | `Cmaj7` |
+| Come si scrive, materialmente | `Dm7  /  G7` |
+
+Per le griglie simboliche, `.` è silenzio, `x` colpo, `X` accento e
+`o` fantasma; le durate e il metro si leggono nel contesto della prova.

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "musicpal"
+version = "0.1.0"
+description = "Portable musical composition, MIDI and groove analysis"
+requires-python = ">=3.10"
+license = {text = "GPL-3.0"}
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["musicpal*"]

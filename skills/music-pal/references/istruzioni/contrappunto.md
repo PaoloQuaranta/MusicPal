@@ -1,0 +1,285 @@
+# Il contrappunto: combinare linee indipendenti
+
+
+> Conoscenza musicale estratta da DelugePal, commit `cbf99ff305be`.
+> [Documento originale e contesto delle prove](../../provenance/delugepal/docs/istruzioni/contrappunto.md).
+> API e trasferimenti appartengono agli adapter; le osservazioni storiche non certificano altre macchine.
+
+**A cosa serve.** Hai una linea — un tema, una melodia, un basso — e vuoi
+metterne un'**altra** insieme che non la raddoppi ma le **risponda**: che vada
+per conto suo e insieme regga con lei. È la terza faccia della forma, e la
+domanda che decide tutto è una sola: le due linee si sentono come **due**, o
+come **una sola raddoppiata**?
+
+È priorità 2 (forma), dopo il [voicing](voicing.md) (quali note in un accordo) e
+il [comping](comping.md) (il ritmo dell'accompagnamento). Il voicing e il comping
+lavorano *sotto* una melodia; il contrappunto mette **due linee alla pari**, o
+una linea principale e una che le fa da contro (il basso è il caso più comune).
+
+**Cosa ti serve prima di cominciare:** una linea già scritta (il tema), il
+registro dove sta la seconda voce, e — se c'è — l'armonia di sfondo su cui
+entrambe si appoggiano.
+
+---
+
+## Il grado di prova
+
+| | |
+|---|---|
+| `[LIB]` | letteratura, con libro e pagina |
+| `[CALC]` | calcolo sul rapporto fra le voci, verificato da un test |
+| `[DEC]` | decisione presa qui, con la ragione |
+| `[OSS]` | osservato all'ascolto |
+
+⚠️ **`[CALC]` + un ascolto**, come il [voicing](voicing.md) e il
+[comping](comping.md). Il contrappunto ha una parte che si **misura** — gli
+intervalli, i moti, le quinte parallele — e una che si **sente**: se «due voci»
+è davvero quello che l'orecchio percepisce. `[LIB]`/`[CALC]` per le meccaniche,
+un esempio lavorato **ascoltato** per il giudizio.
+
+---
+
+## Il principio: accordo e disaccordo
+
+`[LIB]` Piston, *Counterpoint* (1970), Introduzione, p. 9:
+
+> «L'arte del contrappunto è l'arte di combinare linee melodiche. […] Implicito
+> nel termine *contrappuntale*, per origine, c'è l'idea di **disaccordo**.
+> L'intreccio di accordo e disaccordo fra i vari fattori della tessitura
+> costituisce l'elemento contrappuntale nella musica.»
+
+Tradotto in leve maneggiabili, Piston elenca (p. 9) le due forze, e ognuna ha
+**tre facce**:
+
+| | **dipendenza** (accordo) | **indipendenza** (disaccordo) |
+|---|---|---|
+| **armonia** | consonanze | dissonanze e note di passaggio |
+| **ritmo** | attacchi che cadono insieme | attacchi sfasati, attività alternata |
+| **curva** | moto simile, picchi nello stesso momento | moto contrario e obliquo, picchi sfasati |
+
+⚠️ **Non è «più indipendenza = meglio».** Il contrappunto è il **dosaggio** delle
+due forze, non il massimo dell'una. Piston lo dice due volte: *«tutta la musica
+non è contrappuntistica»* (p. 12), e sapere il grado di contrappunto in un pezzo
+*«non è valutare la sua riuscita come musica»* (p. 76). Due linee troppo
+indipendenti non stanno più insieme; due troppo dipendenti sono una voce sola.
+
+---
+
+## Il vocabolario
+
+### I quattro moti
+
+`[LIB]` Piston, cap. 5, p. 83. Come si muovono due voci da un punto al successivo:
+
+| moto | cosa fanno le voci | effetto |
+|---|---|---|
+| **contrario** | direzioni **opposte** (una sale, l'altra scende) | il più indipendente — *«naturalmente tipico del contrappunto»* (p. 83) |
+| **obliquo** | una **tiene**, l'altra si muove | indipendente: la nota ferma fa da perno mentre l'altra disegna |
+| **diretto** (simile) | stessa direzione, **intervallo diverso** | tende alla dipendenza |
+| **parallelo** | stessa direzione, **stesso intervallo** | la dipendenza massima — le voci diventano una |
+
+`[DEC]` Per costruire indipendenza si privilegiano **contrario** e **obliquo**;
+il diretto e il parallelo si usano con parsimonia. Non è un divieto: è il fatto
+che il contrappunto *è* l'opposizione delle curve, e sono questi due moti a
+darla.
+
+### Il solo vero divieto: quinte e ottave parallele
+
+`[LIB]` Piston, cap. 5, p. 83:
+
+> «Due parti che si muovono in ottave sono considerate una parte sola con un
+> raddoppio all'ottava. […] Le quinte parallele sono parimenti evitate, avendo
+> più o meno lo stesso effetto delle ottave parallele sulla dipendenza delle
+> voci.»
+
+⚠️ **Quinte e ottave parallele collassano le due voci in una.** È l'unica cosa
+che il `[CALC]` segnala come **errore** e non come colore. Perché proprio la
+quinta e l'ottava: sono le prime consonanze della serie degli armonici, quelle
+in cui i due suoni si fondono di più. La terza e la sesta parallele (p. 85) fanno
+un effetto più tenue — *«un raddoppio armonico più che una combinazione di linee
+contrappuntistiche»* — ma non sono un divieto: sono un colore da dosare.
+
+⚠️ **Piston è anti-dogmatico sulle quinte e ottave DIRETTE** (nascoste: una
+quinta o ottava **raggiunta per moto simile**). p. 86:
+
+> «Non sono state formulate regole sul trattamento delle ottave e quinte dirette
+> che siano confermate dalla pratica dei compositori. […] Lo studente dovrebbe
+> sforzarsi di sviluppare il **discernimento**, piuttosto che seguire una serie
+> di regole inventate.»
+
+È la stessa cosa che questo progetto ripete da sempre: **leggi compositive
+generalizzabili non esistono**. Per questo il `[CALC]` **conta** le quinte/ottave
+dirette e non le condanna: le mette sotto gli occhi, la scelta resta una scelta.
+
+### La dissonanza: la spezia, se risolve
+
+`[LIB]` Piston, cap. 5, p. 75: la qualità di due linee dipende anche
+dall'*«ammontare di dissonanza creato dalle due voci, specialmente sui tempi
+importanti»*. La dissonanza è indipendenza (p. 9): è ciò che fa sentire due voci
+invece di un accordo. Ma va **preparata e risolta** — nasce da una nota di
+passaggio, un ritardo, un'appoggiatura, non da uno scontro lasciato lì.
+
+⚠️ **In due parti la quarta è dissonante** (`[LIB]` Piston, p. 125: smette di
+esserlo solo nel tre-parti, quando ha sotto una nota che la sostiene). Le
+consonanze sono unisono/ottava/quinta (**perfette**) e terza/sesta
+(**imperfette**); dissonanti la seconda, la quarta, il tritono, la settima.
+
+### Le curve, e i picchi
+
+`[LIB]` Piston, cap. 5, p. 76: *«i punti alti, o picchi, delle curve non arrivano
+nello stesso momento»*. Se le due linee culminano insieme, la tessitura perde
+indipendenza. E p. 79: le voci possono **incrociarsi** liberamente, purché ogni
+curva resti riconoscibile e non restino incrociate troppo a lungo.
+
+---
+
+## Come si usa nel pezzo (il basso è già un contrappunto)
+
+`[LIB]` Piston, cap. 5, p. 73: *«La linea di basso che accompagna una melodia è
+molto spesso organizzata in relazione contrappuntistica, benché subordinata, con
+la voce superiore, e ha una sua propria curva melodica insieme a una certa
+indipendenza di ritmo.»*
+
+`[DEC]` **Questo è il ponte con come Deluge Pal costruisce i pezzi.** Il
+[walking](walking.md) e il tema sono già due voci: il contrappunto è la lente per
+vedere se sono **indipendenti** o se il basso raddoppia la melodia. Le
+[note-guida](armonia-funzionale.md) di una progressione (la 3ª e la 7ª che si
+muovono di poco, condotte da `realizzazione armonica`) sono una **linea** a sé, e una controlinea
+si scrive contro di loro. La regola non cambia: contrario e obliquo, niente quinte
+e ottave parallele, dissonanze che risolvono.
+
+⚠️ **Niente filologia** (perimetro, 11 settembre 2026): non si copia il
+contrappunto di Bach: se ne prende il **bagaglio espressivo** — l'opposizione
+delle curve, la voce che risponde invece di raddoppiare — per una linea nuova.
+
+---
+
+## Esempio lavorato: lo stesso tema, due seconde voci
+
+`[OSS]` **Ascoltato il 14 settembre 2026**, caricato nel caso storico Deluge
+(`CONTRAPPUNTO01`). Lo stesso tema con due seconde voci di fila, sullo stesso
+materiale — una **dipendente** (terze parallele, stesso ritmo: sale e scende col
+tema) e una **indipendente** (moto contrario, due note tenute, ritmo sfasato).
+Così la differenza all'orecchio è **solo** il grado di indipendenza. Rhodes per il
+tema, basso per la seconda voce. In
+lo studio originale ([prova storica](../../provenance/origin-links.md)).
+
+Quello che il `[CALC]` misura, e che l'orecchio ha confermato:
+
+| | dipendente | indipendente |
+|---|---|---|
+| moto | 5 diretto, 2 parallelo, **0 contrario** | **5 contrario, 2 obliquo**, 0 parallelo |
+| attacchi insieme | **100%** | **75%** |
+| picchi | **insieme** | sfasati |
+| quinte/ottave parallele | nessuna | nessuna |
+
+**Verdetto: «suona giusto, approvato».** ⚠️ La dipendente suona come **una voce
+raddoppiata**, l'indipendente come **due voci**: il principio di Piston (p. 9,
+accordo contro disaccordo) è confermato all'orecchio. È passata al primo colpo,
+come il voicing e il comping — la forma è terreno fermo quanto l'armonia, purché
+la scelta resti una scelta.
+
+---
+
+## Cosa NON fare
+
+- **non muovere in quinte o ottave parallele:** è l'unico vero errore — le due
+  voci diventano una (Piston p. 83). Il `[CALC]` le segnala;
+- **non lasciare tutto in moto diretto/parallelo:** senza contrario e obliquo non
+  c'è indipendenza — sono una voce raddoppiata;
+- **non far attaccare sempre le due voci insieme:** sfasa i ritmi, fai tenere una
+  nota mentre l'altra disegna (obliquo);
+- **non far culminare le due linee nello stesso momento** (Piston p. 76);
+- **non lasciare una dissonanza senza risoluzione sul battere:** la dissonanza è
+  la spezia solo se prepara e risolve;
+- **non trasformare Piston in un regolamento:** lui stesso rifiuta le regole
+  inventate (p. 86) e chiede discernimento — il `[CALC]` conta, non condanna.
+
+---
+
+## Cosa manca a questa istruzione
+
+La prova elettronica del 27 settembre 2026 usa il motivo fra due synth e gli
+accenti della batteria come relazioni contrappuntistiche: vedi
+[forma-storica-elettronica.md](forma-storica-elettronica.md). La song è valida
+nel formato ed è stata ascoltata nel caso storico Deluge: l'utente ha confermato che funziona.
+
+La prova `CANONE01` del 28 settembre chiude la parte **strutturale** del canone
+rigoroso a due voci: la risposta conserva tutti gli eventi a una battuta e
+un'ottava di distanza, senza parallele perfette o dissonanze sui movimenti
+forti. È caricata e riletta byte per byte dal Deluge; all'ascolto l'utente ha
+confermato **«percepisco ingresso imitativo»**, chiudendo anche il verdetto
+percettivo. Dettagli e sorgente sono in
+[forma-storica-elettronica.md](forma-storica-elettronica.md).
+
+La prova `INVERT01` del 28 settembre chiude la parte **strutturale** del
+contrappunto invertibile a due voci: nella seconda meta A scende esattamente di
+un'ottava e B sale esattamente di un'ottava, senza cambiare note, ritmo o durate.
+Entrambe le disposizioni evitano parallele perfette e dissonanze sui movimenti
+forti. All'ascolto nel caso storico Deluge l'utente ha confermato **«funziona e il tema è
+molto bello»**: la prova e quindi chiusa anche sul piano percettivo. Dettagli e
+sorgente sono in
+[forma-storica-elettronica.md](forma-storica-elettronica.md).
+
+La prova `TREPARTI01` del 28 settembre chiude la parte **strutturale** del
+contrappunto libero a tre voci. Oltre ai tre controlli a coppie, valuta 24
+verticali complete sui movimenti forti: la quarta e ammessa soltanto fra le
+parti superiori quando il basso sostiene una sonorita consonante; le tre classi
+restano distinte, senza semplici raddoppi. Le entrate, i ritmi e i culmini sono
+sfasati e nessuna coppia contiene parallele perfette. All'ascolto nel caso storico Deluge
+l'utente ha confermato **«perfetto funziona»**, chiudendo anche il verdetto
+percettivo. Dettagli e sorgente sono in
+[forma-storica-elettronica.md](forma-storica-elettronica.md).
+
+- il **contrappunto oltre tre parti**: si aggiunge una quarta voce solo quando
+  un pezzo concreto la richiede, perche la densita cambia il problema
+  percettivo oltre che quello verticale;
+- la **specie** classica (nota contro nota, due contro una…) come progressione
+  didattica: qui si è preso il contrappunto **libero** di Piston (stile Bach), non
+  le specie di Fux.
+
+### Materiale musicale degli esempi originali
+
+Questi sono i materiali espliciti delle prove, riscritti come notazione
+dichiarativa. Le operazioni del sequencer sono nell’adapter storico.
+
+| contesto della prova | materiale |
+|---|---|
+| Come si scrive, materialmente | `mi4 fa4 sol4 la4 sol4 mi4 re4 do4` |
+
+Per le griglie simboliche, `.` è silenzio, `x` colpo, `X` accento e
+`o` fantasma; le durate e il metro si leggono nel contesto della prova.
+
+### Controllare il rapporto prima di cambiare la parte
+
+La sezione di realizzazione originale elencava cinque controlli musicali:
+
+1. **Quinte e ottave parallele:** correggere quelle vietate nel perimetro scelto.
+2. **Moti:** se tutto è diretto o parallelo, cercare contrario e obliquo per
+   distinguere le linee.
+3. **Simultaneità:** attacchi sempre insieme possono annullare l’indipendenza;
+   una voce tenuta mentre l’altra si muove crea una relazione diversa.
+4. **Picchi:** se coincidono sempre, spostare il culmine di una linea.
+5. **Dissonanze sul battere:** giudicare risoluzione e intenzione nel linguaggio scelto.
+
+Il calcolo misura queste proprietà; **non compone la seconda voce**. Lo stesso
+tema dell’esempio originale era Mi4–Fa4–Sol4–La4–Sol4–Mi4–Re4–Do4, con passo
+di un quarto. La seconda voce tiene e muove in contrario: i dati sono riportati
+qui sotto, con il contesto storico del loro tempo.
+
+### Eventi musicali espliciti della prova
+
+Le tuple del codice originale vengono conservate come dati, senza
+chiamate al dispositivo. Posizione e durate numeriche sono i tick della
+**griglia storica del costruttore**, non beat e non unità universali.
+Le figure scritte come frazioni sono durate musicali. Prima di riutilizzare
+una posizione, dichiarare PPQ in quarti e metro del materiale originario.
+
+| posizione storica | altezza (MIDI o nome) | durata | velocity, se esplicita |
+|---|---|---|---|
+| 0 | do3 | 1/2 | non indicata nella tupla |
+| 192 | sol2 | 1/4 | non indicata nella tupla |
+| 288 | fa2 | 1/4 | non indicata nella tupla |
+| 384 | sol2 | 1/2 | non indicata nella tupla |
+| 576 | si2 | 1/4 | non indicata nella tupla |
+| 672 | do3 | 1/4 | non indicata nella tupla |

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+out/
+to-read/
+refs/
+corpus_versions/
+*.db
+*.sqlite*
+*.mid
+*.midi
+*.wav
+*.XML
