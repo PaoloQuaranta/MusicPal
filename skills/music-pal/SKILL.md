@@ -1,6 +1,6 @@
 ---
 name: music-pal
-description: Compone, arrangia e rivede musica usando istruzioni musicali con fonti, vincoli locali, esempi commentati e prove d’ascolto. Usare per armonia, melodia, groove, ruoli, forma, sviluppo, transizioni o revisione di un brano, con Producer Pal, DelugePal o altri esecutori.
+description: Compone, arrangia e rivede musica usando istruzioni musicali con fonti, vincoli locali, esempi commentati e prove d’ascolto. Usare per armonia, melodia, groove, ruoli, forma, sviluppo, transizioni o revisione di un brano; può usare MIDI Composer per generare materiale e Producer Pal, DelugePal o altri esecutori per realizzarlo.
 ---
 
 # Music Pal
@@ -22,6 +22,14 @@ sono materiale da studiare e variare, non template obbligatori.
 Tratta le ricette come impostazioni di base; motiva le eccezioni con il ruolo
 e il punto della forma. Indica i registri prima in numeri MIDI, poi eventualmente
 in nomi con [convenzione dichiarata](references/navigation.md#registri-e-nomi-delle-note).
+
+Quando MIDI Composer è disponibile, usalo come strumento compositivo per
+sviluppare e renderizzare il materiale scelto, seguendo il
+[percorso MIDI Composer](references/adapters/midi-composer.md). Verifica i tool
+installati e il MIDI effettivo, comprese velocity e durate: l'output del generatore
+è una proposta musicale da controllare. Per una modifica locale resta sugli eventi
+esistenti se rigenerare il pezzo violerebbe i vincoli. Senza MIDI Composer prosegui
+con le procedure locali: la skill e la libreria restano indipendenti dal server MCP.
 
 Per una revisione dichiara **Tengo**, **Cambio**, **Direzione** e **Resta regolabile**.
 Conserva il lavoro dell’utente e cambia la più piccola variabile musicale utile.

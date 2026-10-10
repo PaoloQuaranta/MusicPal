@@ -6,6 +6,11 @@ Official references checked 2026-10-09:
 Producer Pal remains a separately installed Ableton integration. MusicPal does
 not install it, connect to Live, or submit tool calls.
 
+For material generated with MIDI Composer, first follow the
+[MIDI import workflow](midi-composer.md). It retains track/channel identity,
+clip length and non-note events outside the pattern, and requires an explicit
+policy for programs, release velocity and other state before this serializer.
+
 ```python
 from musicpal.notes import Note
 from musicpal.interchange import from_tick_notes

@@ -50,3 +50,11 @@ imports reject unknown note fields. Convert legacy objects with their backend se
 `delugexml.music_bridge.to_musical`) before interchange. Keep conditional originals
 in their backend or explicitly realize them as deterministic note events.
 No raw device condition bytes belong to this contract.
+
+Standard MIDI File input, including MIDI Composer output, uses the separate
+`musicpal.midi_import` container. It retains track/channel identity, exact
+quarter beats, source track ends, a common clip length and non-note events;
+`patterns()` yields one MusicalPattern per track/channel only after unsupported
+state is explicitly handled. See the [MIDI Composer input bridge](midi-composer.md).
+The historical `musicpal.midi.leggi` reader remains available for corpus work;
+its permissive repairs and omitted metadata are not a loss-aware import contract.

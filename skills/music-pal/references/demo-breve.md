@@ -21,7 +21,9 @@ non richiedono una sua decisione.
    registro, articolazione, filtro o dinamica. Se prometti filtro o sidechain,
    specifica parte, sezione ed effetto voluto e realizzali tramite l'adapter.
    Se restano fuori dalla demo, dichiaralo nella consegna.
-5. **Realizzazione e controllo.** Usa il [contratto](adapters/contract.md) e
+5. **Realizzazione e controllo.** Se disponibile, usa il
+   [percorso MIDI Composer](adapters/midi-composer.md) per generare le parti e
+   assemblare la forma, conservando richiesta e MIDI originale. Usa il [contratto](adapters/contract.md) e
    l'adapter scelto per controllare note, strumenti e disposizione temporale.
    Chiudi con [Previsto / Realizzato / Da verificare all'ascolto](verifica-finale.md).
 

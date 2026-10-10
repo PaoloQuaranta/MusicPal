@@ -96,6 +96,8 @@ def _vlq(dati: bytes, i: int) -> tuple[int, int]:
     """Variable Length Quantity: 7 bit per byte, il bit alto dice "continua"."""
     valore = 0
     for _ in range(4):
+        if i >= len(dati):
+            raise ValueError('VLQ troncato: file corrotto')
         b = dati[i]
         i += 1
         valore = (valore << 7) | (b & 0x7F)
@@ -106,9 +108,13 @@ def _vlq(dati: bytes, i: int) -> tuple[int, int]:
 
 def _chunks(dati: bytes):
     i = 0
-    while i + 8 <= len(dati):
+    while i < len(dati):
+        if i + 8 > len(dati):
+            raise ValueError('intestazione chunk MIDI troncata')
         tipo = dati[i:i + 4]
         (lung,) = struct.unpack('>I', dati[i + 4:i + 8])
+        if i + 8 + lung > len(dati):
+            raise ValueError('corpo chunk MIDI troncato')
         yield tipo, dati[i + 8:i + 8 + lung]
         i += 8 + lung
 

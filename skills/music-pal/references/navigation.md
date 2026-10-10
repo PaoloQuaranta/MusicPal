@@ -114,6 +114,11 @@ La skill si installa copiando l’intera cartella `music-pal`, incluso `provenan
 
 ## Realizzazione
 
+Per generare o sviluppare materiale con i tool installati, apri il
+[percorso MIDI Composer](adapters/midi-composer.md): scelte musicali, generazione,
+importazione verificabile, poi consegna all'esecutore. Questo server MCP è distinto
+dalla vecchia skill `music-composer` citata nelle prove storiche.
+
 [Contratto](adapters/contract.md), [DelugePal](adapters/deluge-pal.md),
 [Producer Pal](adapters/producer-pal.md). Scegli soltanto l’adapter richiesto.
 Concludi con la [verifica finale](verifica-finale.md), anche per una demo.

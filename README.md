@@ -60,6 +60,49 @@ dynamics and interaction analysis, plus MIDI, Groove MIDI, Weimar Jazz and Jazz
 Transformer corpus readers. Datasets, third-party books, presets and private
 songs are not distributed. Corpus paths must be provided explicitly.
 
+## MIDI Composer
+
+The skill can now use the separately installed MIDI Composer MCP tools to build
+melodies, harmony, accompaniment and whole-song arrangements. MusicPal supplies
+the musical decisions and checks the generated result before handing it to an
+executor. Read the [workflow](skills/music-pal/references/adapters/midi-composer.md).
+Neither the Python package nor the skill requires the MCP server to be available.
+
+The MIDI reader inherited from DelugePal is already in `musicpal.midi`.
+For generated material, `musicpal.midi_import` adds a strict import path into
+the neutral interchange model, sharing the existing binary-reading helpers:
+
+```python
+from musicpal.midi_import import read
+from musicpal.producer_pal import render_notes
+
+song = read("idea.mid", length_beats=4)  # Explicit phrase length, including rests
+print(song.to_dict())                  # Inspect every track and non-note event
+# Example policy: GM programs are replaced by explicitly assigned DAW instruments.
+for part in song.patterns(omit_events={"program_change"}):
+    # Example policy: accept omission of release velocity in Producer Pal notation.
+    print(part.track_index, part.channel, part.length_beats)
+    print(render_notes(part.pattern, discard_lift=True))
+```
+
+Only list event kinds actually present and deliberately omitted. The import
+preserves pitch, exact timing, attack/release velocity, channels, track ends and
+all non-note payloads in an audit manifest. Pattern conversion rejects unhandled
+CCs, programs, pitch bend and other unsupported state. Variable tempo/meter maps
+remain available for inspection but cannot be flattened into these patterns.
+Malformed notes are rejected rather than repaired. The legacy corpus-reading API
+is retained. No external MIDI package, Deluge imports or device calls are added.
+
+For a JSON audit without device access:
+
+```powershell
+python -m musicpal.midi_import idea.mid --length-beats 4 --output idea.audit.json
+```
+
+Keep the original MIDI and generation arguments. Set tempo, meter, clip length
+and instruments separately in the executor; the note string does not set them.
+An imported MIDI or an offline serialization test is not an audio listening test.
+
 ## Producer Pal / Ableton Live
 
 Read [the bridge guide](skills/music-pal/references/adapters/producer-pal.md).
